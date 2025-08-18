@@ -7,7 +7,7 @@ pipeline{
             steps{
                 script{
                     hello()
-                    name("manoj is my name")
+                    name("Manoj")
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 echo "This is deploying code from github"
-                sh "docker compose up -d"
+                //sh "docker compose up -d"
             }
         }
     }
