@@ -32,7 +32,7 @@ pipeline{
         }
         stage("Deploy"){
             steps{
-                echo "This is deploying code"
+                echo "This is deploying code from github"
                 //sh "docker compose up -d"
             }
         }
