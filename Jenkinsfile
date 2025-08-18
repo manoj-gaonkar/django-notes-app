@@ -7,7 +7,7 @@ pipeline{
             steps{
                 script{
                     hello()
-                    name("manoj")
+                    name("manoj is my name")
                 }
             }
         }
